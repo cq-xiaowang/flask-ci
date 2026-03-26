@@ -4,3 +4,8 @@ services:
     restart: always
     ports:
       - "5000:5000"
+    volumes:
+      - ./repos:/app/repos
+      - ./logs:/app/logs
+    working_dir: /app
+    command: python app.py
