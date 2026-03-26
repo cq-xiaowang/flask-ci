@@ -40,4 +40,4 @@ def index():
     return "CI系统运行中！"
 
 if __name__ == "__main__":
-    app.run(host=CI_HOST, port=CI_PORT, debug=CI_DEBUG)
+    app.run(host=CI_HOST, port=CI_PORT)
