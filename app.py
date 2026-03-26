@@ -24,7 +24,7 @@ def webhook():
 
     # 解析提交信息
     data = request.json
-    project_name = "my-project"  # 对应config中的项目名
+    project_name = "journey-blog-vue"  # 对应config中的项目名
 
     # 异步启动构建
     async_build(project_name)
