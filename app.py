@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import hmac
 import hashlib
 from builder import async_build
-from config import CI_HOST, CI_PORT, WEBHOOK_SECRET
+from config import CI_HOST, CI_PORT, WEBHOOK_SECRET, CI_DEBUG
 
 app = Flask(__name__)
 
