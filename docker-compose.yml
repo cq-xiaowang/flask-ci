@@ -1,0 +1,7 @@
+version: 'v1.0'
+services:
+  app:
+    build: .
+    restart: always
+    ports:
+      - "8080:8080"
