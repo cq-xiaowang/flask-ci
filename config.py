@@ -1,5 +1,5 @@
 # CI服务配置
-CI_HOST = "117.72.246.24"
+CI_HOST = "0.0.0.0"
 CI_PORT = 5000
 CI_DEBUG = False
 
